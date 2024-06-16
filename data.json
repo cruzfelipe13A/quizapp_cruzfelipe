@@ -212,112 +212,112 @@
                 }
             ]
         },
-        {
-            "title": "Javascript",
-            "icon": "../../assets/images/icon-js.svg",
-            "questions": [
-                {
-                    "question": "Qual é a sintaxe correta para mostrar 'Hello World' em uma caixa alert?",
-                    "options": [
-                        "alertBox('Hello World');",
-                        "msg('Hello World');",
-                        "alert('Hello World');",
-                        "msgBox('Hello World');"
-                    ],
-                    "answer": "alert('Hello World');"
-                },
-                {
-                    "question": "Como se executa uma função chamada 'myFunction'?",
-                    "options": [
-                        "call function myFunction()",
-                        "call myFunction()",
-                        "myFunction()",
-                        "execute myFunction()"
-                    ],
-                    "answer": "myFunction()"
-                },
-                {
-                    "question": "Como escrever uma condicional IF no Javascript?",
-                    "options": [
-                        "if i = 5 then",
-                        "if (i == 5)",
-                        "if i == 5",
-                        "if i = 5"
-                    ],
-                    "answer": "if (i == 5)"
-                },
-                {
-                    "question": "Como escrever uma condicional IF que executa algum código se 'i' NÃO for igual a 5?",
-                    "options": [
-                        "if (i <> 5)",
-                        "if i =! 5 then",
-                        "if (i != 5)",
-                        "if i not = 5"
-                    ],
-                    "answer": "if (i != 5)"
-                },
-                  {
-                    "question": "Como se inicia um laço FOR?",
-                    "options": [
-                        "for (i = 0; i <= 5)",
-                        "for i = 1 to 5",
-                        "for (i <= 5; i++)",
-                        "for (i = 0; i <= 5; i++)"
-                    ],
-                    "answer": "for (i = 0; i <= 5; i++)"
-                },
-                {
-                    "question": "Como adicionar um cometário de uma linha do Javascript?",
-                    "options": [
-                      "'Sou um comentário de uma linha",
-                      "//Sou um comentário de uma linha",
-                      "<!--Sou um comentário de uma linha-->",
-                      "/* Sou um comentário de uma linha */"
-                    ],
-                    "answer": "//Sou um comentário de uma linha"
-                },
-                {
-                    "question": "Qual é a maneira correta de criar um array no Javascript?",
-                    "options": [
-                        "var colors = (1:'red', 2:'green', 3:'blue')",
-                        "var colors = ['red', 'green', 'blue']",
-                        "var colors = 'red', 'green', 'blue'",
-                        "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
-                    ],
-                    "answer": "var colors = ['red', 'green', 'blue']"
-                },
-                {
-                    "question": "Como você encontra o maior valor entre x e y?",
-                    "options": [
-                        "Math.ceil(x, y)",
-                        "top(x, y)",
-                        "Math.max(x, y)",
-                        "Math.highest(x, y)"
-                    ],
-                    "answer": "Math.max(x, y)"
-                },
-                {
-                    "question": "Qual operador é utilizado para atribuir valor a uma variável?",
-                    "options": [
-                        "-",
-                        "*",
-                        "=",
-                        "x"
-                    ],
-                    "answer": "="
-                },
-                {
-                    "question": "Qual é a maneira correta de criar um objeto Javascript?",
-                    "options": [
-                        "var person = {firstName: 'John', lastName: 'Doe'};",
-                        "var person = {firstName = 'John', lastName = 'Doe'};",
-                        "var person = (firstName: 'John', lastName: 'Doe');",
-                        "var person = (firstName = 'John', lastName = 'Doe');"
-                    ],
-                    "answer": "var person = {firstName: 'John', lastName: 'Doe'};"
-                }
-            ]
-        },
+            {  
+                "title": "JavaScript",
+                "icon": "../../assets/images/icon-js.svg",
+                "questions": [
+                    {
+                        "question": "Qual é a sintaxe correta para mostrar 'Hello World' em uma caixa alert?",
+                        "options": [
+                            "alertBox('Hello World');",
+                            "msg('Hello World');",
+                            "alert('Hello World');",
+                            "msgBox('Hello World');"
+                        ],
+                        "answer": "alert('Hello World');"
+                    },
+                    {
+                        "question": "Como se executa uma função chamada 'myFunction'?",
+                        "options": [
+                            "call function myFunction()",
+                            "call myFunction()",
+                            "myFunction()",
+                            "execute myFunction()"
+                        ],
+                        "answer": "myFunction()"
+                    },
+                    {
+                        "question": "Como escrever uma condicional IF no Javascript?",
+                        "options": [
+                            "if i = 5 then",
+                            "if (i == 5)",
+                            "if i == 5",
+                            "if i = 5"
+                        ],
+                        "answer": "if (i == 5)"
+                    },
+                    {
+                        "question": "Como escrever uma condicional IF que executa algum código se 'i' NÃO for igual a 5?",
+                        "options": [
+                            "if (i <> 5)",
+                            "if i =! 5 then",
+                            "if (i != 5)",
+                            "if i not = 5"
+                        ],
+                        "answer": "if (i != 5)"
+                    },
+                    {
+                        "question": "Como se inicia um laço FOR?",
+                        "options": [
+                            "for (i = 0; i <= 5)",
+                            "for i = 1 to 5",
+                            "for (i <= 5; i++)",
+                            "for (i = 0; i <= 5; i++)"
+                        ],
+                        "answer": "for (i = 0; i <= 5; i++)"
+                    },
+                    {
+                        "question": "Como adicionar um cometário de uma linha do Javascript?",
+                        "options": [
+                        "'Sou um comentário de uma linha",
+                        "//Sou um comentário de uma linha",
+                        "<!--Sou um comentário de uma linha-->",
+                        "/* Sou um comentário de uma linha */"
+                        ],
+                        "answer": "//Sou um comentário de uma linha"
+                    },
+                    {
+                        "question": "Qual é a maneira correta de criar um array no Javascript?",
+                        "options": [
+                            "var colors = (1:'red', 2:'green', 3:'blue')",
+                            "var colors = ['red', 'green', 'blue']",
+                            "var colors = 'red', 'green', 'blue'",
+                            "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+                        ],
+                        "answer": "var colors = ['red', 'green', 'blue']"
+                    },
+                    {
+                        "question": "Como você encontra o maior valor entre x e y?",
+                        "options": [
+                            "Math.ceil(x, y)",
+                            "top(x, y)",
+                            "Math.max(x, y)",
+                            "Math.highest(x, y)"
+                        ],
+                        "answer": "Math.max(x, y)"
+                    },
+                    {
+                        "question": "Qual operador é utilizado para atribuir valor a uma variável?",
+                        "options": [
+                            "-",
+                            "*",
+                            "=",
+                            "x"
+                        ],
+                        "answer": "="
+                    },
+                    {
+                        "question": "Qual é a maneira correta de criar um objeto Javascript?",
+                        "options": [
+                            "var person = {firstName: 'John', lastName: 'Doe'};",
+                            "var person = {firstName = 'John', lastName = 'Doe'};",
+                            "var person = (firstName: 'John', lastName: 'Doe');",
+                            "var person = (firstName = 'John', lastName = 'Doe');"
+                        ],
+                        "answer": "var person = {firstName: 'John', lastName: 'Doe'};"
+                    }
+                ]
+            },
         {
             "title": "Acessibilidade",
             "icon": "../../assets/images/icon-accessibility.svg",
