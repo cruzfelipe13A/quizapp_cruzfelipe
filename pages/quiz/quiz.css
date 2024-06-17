@@ -191,7 +191,7 @@ main{
     }
 }
 
-.alternativas label#correta{
+.alternativas label#correta {
 
     outline: 3px solid var(--green);
 
